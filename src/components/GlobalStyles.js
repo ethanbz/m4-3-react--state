@@ -20,7 +20,7 @@ export default createGlobalStyle`
     input, button, select, option,
     h1, h2, h3, h4, h5, h6, p,
     text {
-        font-family: sans-serif;
+        font-family: Helvetica;
     }
 
     html, body {
@@ -69,5 +69,26 @@ export default createGlobalStyle`
     q:before, q:after {
         content: '';
         content: none;
+    }
+    .wrapper {
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .btn {
+        height: 30px;
+        width: 60px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        
+    }
+    .input {
+        height: 30px;
+        width: 300px;
+        margin-right: 5px;
     }
 `;
